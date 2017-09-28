@@ -14,7 +14,7 @@
 //    exit('ParamError');
 //}
 
-//1. POSTデータ取得
+//1. POSTデータ取得  test
 $tourokubi = $_POST["tourokubi"];
 $syuueki = $_POST["syuueki"];
 $syuuekihozyo = $_POST["syuuekihozyo"];
