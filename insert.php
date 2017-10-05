@@ -56,7 +56,7 @@ if($status==false){
     $error = $stmt->errorInfo();
     exit("QueryError:".$error[2]);
 }else{
-    header("Location: post.php");
+    header("Location: bm_list_view.php");
     exit;
 }
 
