@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 2017 年 9 月 28 日 16:00
+-- Generation Time: 2017 年 10 月 06 日 08:35
 -- サーバのバージョン： 5.6.21
 -- PHP Version: 5.6.3
 
@@ -38,14 +38,22 @@ CREATE TABLE IF NOT EXISTS `accounting_db_01` (
   `hiyou` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
   `hiyouhozyo` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,
   `hiyoukingaku` int(11) DEFAULT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- テーブルのデータのダンプ `accounting_db_01`
 --
 
 INSERT INTO `accounting_db_01` (`id`, `tourokubi`, `syuueki`, `syuuekihozyo`, `syuuekikingaku`, `gennka`, `gennkahozyo`, `gennkakingaku`, `hiyou`, `hiyouhozyo`, `hiyoukingaku`) VALUES
-(7, '2017-09-28', '売上', '売掛金', 50000, '', '', 0, '', '', 0);
+(22, '2017-10-02', '', '', 0, '', '', 0, '福利厚生費', '未払金', 50000),
+(23, '2017-10-03', '', '', 0, '', '', 0, '旅費交通費', '未払金', 50000),
+(24, '2017-10-03', '', '', 0, '', '', 0, '旅費交通費', '未払金', 50000),
+(25, '2017-10-03', '', '', 0, '', '', 0, '旅費交通費', '未払金', 50000),
+(26, '2017-10-03', '', '', 0, '', '', 0, '福利厚生費', '未払金', 50000),
+(27, '2017-10-03', '', '', 0, '', '', 0, '福利厚生費', '未払金', 50000),
+(28, '2017-10-03', '', '', 0, '', '', 0, '福利厚生費', '未払金', 50000),
+(29, '2017-10-02', '', '', 0, '', '', 0, '通信費', '未払金', 50000),
+(30, '2017-10-01', '', '', 0, '', '', 0, '水道光熱費', '未払金', 50000);
 
 --
 -- Indexes for dumped tables
@@ -65,7 +73,7 @@ ALTER TABLE `accounting_db_01`
 -- AUTO_INCREMENT for table `accounting_db_01`
 --
 ALTER TABLE `accounting_db_01`
-MODIFY `id` int(12) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
+MODIFY `id` int(12) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=32;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
